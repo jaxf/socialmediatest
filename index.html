@@ -1,12 +1,37 @@
-<?php
-include_once 'header.php';
-?>
-
-
-<body>
-
-<h1><center>Home Page</center></h1><br>
-<h3><center>Page setup in progress</center></h1>
-
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flexbox Navbar 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body> 
+        <header>
+            <img class="logo" src="img/star.png" alt="">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#"><button>Contact</button></a>
+        </header>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-1">
+                <h2><center>Developed by Jackson Foster</center></h2>
+            </div>
+                <div class="flexbox-item flexbox-grow">
+                    <h1><center>Social Media Test Website</center></h1>
+                    <h2><center>As this project unfolds, a test social media will be run with a functioning login system, Spoitify API integreation, and Apple Music API integreation as well.</center></h2>
+                    <h3><center>Project will continue to be updated on the Github repository, linked <a href=https://github.com/jaxf/socialmediatest>here.</a></center></h3>
+                </div>
+            <div class="flexbox-item flexbox-3">
+                <h2><center>Sourced open on github.</center></h2>
+            </div>
+        </div>
+    </body>
 </html>

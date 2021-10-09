@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgba(20, 20, 20, 0.5);
+    z-index: 2;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a hover {
+    color: #0088a9
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(178, 200, 206, 0.8);
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp5849659.png"); 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.flexbox-container {
+    display: flex;
+  }
+
+.flexbox-item {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    border: 3px solid rgb(250, 244, 244);
+    border-radius: 2rem;
+    background-color:rgba(13, 13, 12, 0.5);
+    -webkit-backdrop-filter: blur(0px);
+    transition: all 0.3s ease-in-out;
+    z-index: 9;
+}
+
+.flexbox-grow {
+    flex-grow: 1;
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 10;
+}
+
+.flexbox-grow:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: "Arial";
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: "Arial";
+    font-weight: 500;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.253);
+    margin-top: 20px;
+}
