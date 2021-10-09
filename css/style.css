@@ -79,8 +79,8 @@ body {
     border-radius: 2rem;
     background-color:rgba(13, 13, 12, 0.5);
     -webkit-backdrop-filter: blur(0px);
-    transition: all 0.3s ease-in-out;
-    z-index: 9;
+    transition: all 1s ease-in-out;
+    z-index: 1;
     height: 85vh;
 }
 
@@ -88,11 +88,10 @@ body {
     flex-grow: 1;
     -webkit-backdrop-filter: blur(20px);
     z-index: 10;
-    height: 85vh;
 }
 
 .flexbox-grow:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 h1 {
@@ -101,6 +100,8 @@ h1 {
     font-size: 36px;
     color: rgba(255, 255, 255, 0.8);
     margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h2 {
@@ -111,6 +112,7 @@ h2 {
     margin-right: 10px;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 20px;
+    text-align: center;
 }
 
 h3 {
@@ -121,4 +123,21 @@ h3 {
     margin-right: 10px;
     color: rgba(255, 255, 255, 0.253);
     margin-top: 20px;
+    text-align: center;
+}
+
+.flexbox-side {
+    position: sticky;
+    transition: all 1s ease-in-out;
+}
+
+.flexbox-side:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+li {
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 10px
 }
